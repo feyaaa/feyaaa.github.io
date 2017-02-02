@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ABOUT US</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="eigen.css" type="text/css">
+    <style> .mySlides {display:none;} </style>
+
+  </head>
+  <body>
+    <div class="homie">
+
+      <h2>ABOUT US</h2>
+
+    </div>
+    <div class="header">
+       <ul>
+              <li><a href="website.html.html">Home</a></li>
+         <li class="dropdown">
+          <a href="info.html.html" class="dropbtn">About us</a>
+          <div class="dropdown-content">
+            <a href="fenna.html.html">Fenna</a>
+            <a href="yathe.html.html">Yathe</a>
+          </div>
+<!--//          //-->
+        </li>
+             <li><a href="contact.html.html">Contact</a></li>
+
+       </ul>
+    </div>
+    <div class="info">
+      <div class="hoofd">Fenna de Gier & Yathe Wong</div>
+      <p>
+        Hai iedereen, wij zijn Fenna en Yathe.
+        Momenteel zijn wij zestien jaar oud en zitten in de vijfde klas op het ds. Pierson college.
+        Bij het vak informatica kregen wij de opdracht om een eigen site te maken, hier kregen wij ongeveer 10 weken de tijd voor.
+        Deze opdracht leek ons erg leuk, we werden heel enthousiast toen we aan de slag gingen op de programmeercursus op dash.generalassemb.ly
+        Wij hebben veel geleerd over html5 en css3, dit hadden we van tevoren niet verwacht.
+        Wij hebben gebruik gemaakt van de html-editor atom, dit vinden wij een heel fijn en overzichtelijk programma.
+        Uiteindelijk zijn we erg tevreden en trots op het resultaat en hopen dat jullie dat ook vinden.
+        Neem snel een kijkje op onze site!
+      </p>
+      <p>X Fenna en Yathe</p>
+    </div class="info">
+
+    <div class="slide" style="max-width:500px">
+       <img class="myslides" src="http://i.imgur.com/fLLa8lJ.jpg" style="width:100%">
+              <img class="myslides" src="fenna2.jpg" style="width:100%">
+       <img class="myslides" src="http://i.imgur.com/T0wgaB9.jpg" style="width:100%">
+              <img class="myslides" src="fenna3.jpg" style="width:100%">
+       <img class="myslides" src="http://i.imgur.com/4ZMfPim.jpg" style="width:100%">
+              <img class="myslides" src="http://i.imgur.com/iHTBBQ6.jpg" style="width:100%">
+       <img class="myslides" src="http://i.imgur.com/LTxoTjp.jpg" style="width:100%">
+              <img class="myslides" src="fenna5.jpg" style="width:100%">
+       <img class="myslides" src="http://i.imgur.com/1CTUwFP.jpg" style="width:100%">
+    </div>
+
+    <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("myslides");
+      for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 2000);}
+    </script>
+  </body>
+  <footer>© 2016 - A Lovely Holiday</footer>
+</html>

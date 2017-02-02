@@ -1,0 +1,452 @@
+.homie{
+  background-image: url("plaatje.jpg");
+  background-size: cover;
+  color: black;
+  height: 550px;
+  width: 100%;
+  }
+
+h1{
+  font-size: 30px;
+  line-height: 150px;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  top: auto;
+  padding-left: 170px;
+  font-family: helvetica;
+  }
+
+header {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 358px;
+  }
+
+h2{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 60px;
+  margin: 0 0 0 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.kaas{
+  max-width: 700px;
+  padding:20px;
+  margin: 0 auto;
+  font-family: helvetica;
+  text-align: justify;
+}
+
+.koe{
+  border: 2px solid white;
+  padding: 10px;
+  display: inline-block;
+}
+
+span{
+  text-align: center;
+  padding: 10px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+.header{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-top: -63px;
+}
+
+.profiel{
+  padding-top: 80px;
+  padding-right: 120px;
+  margin-top: -140px;
+}
+
+#ik{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.by{
+  padding-left: 81px;
+  padding-top: 130px;
+  color: black;
+}
+
+.by1{
+  padding-left: 85px;
+  padding-top: 130px;
+  color: white;
+}
+
+ul {
+  text-align: center;
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+}
+li {
+      display: inline;
+      padding: 0px 70px 0px 70px;
+
+}
+li > a {
+      color: white;
+      text-align: center;
+      padding: 10px 100px;
+      text-decoration: none;
+}
+li > a:hover {
+      background-color: #111;
+}
+.dropbtn {
+      color: white;
+      padding: 10px 100px;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+}
+.dropdown {
+      position: relative;
+      display: inline-block;
+
+}
+.dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.dropdown-content a {
+      color: black;
+      padding:  10px  112px;
+      text-decoration: none;
+      display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+      display: block;
+}
+
+.dropdown:hover .dropbtn {
+      background-color: #111;
+}
+
+.utrecht{
+  background-image: url("utrecht.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+#dom{
+  width: 300px;
+  height: 400px;
+  margin-left: -2px;
+  margin-bottom: -2px;
+}
+#straat{
+  width: 400px;
+  height: 300px;
+  transform: rotate(90deg);
+  margin-left: -37px;
+  margin-bottom: -2px;
+}
+#scent{
+  width: 618px;
+  height: 400px;
+}
+
+.design{
+  background-image: url("design.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+#vaasjes{
+  width: 300px;
+  margin-left: -2px;
+}
+
+#kruk{
+  width: 300px;
+  margin-left: 12px;
+}
+#holon{
+  width: 620px;
+  padding-top:3px;
+}
+
+.efteling{
+  background-image: url("efteling.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+#ingang{
+  width: 400px;
+  height: 300px;
+  transform: rotate(90deg);
+  padding-top: 100px;
+  margin-left: -2px;
+}
+
+#vijver{
+  width: 400px;
+  height: 300px;
+  transform: rotate(90deg);
+  margin-left: -137px;
+}
+
+#fata-morgana{
+  width: 380px;
+  height: 260px;
+  margin-left: -87px;
+}
+
+#watershow{
+  width: 618px;
+  height: 300px;
+  margin-top: 3px;
+}
+
+.nijmegen{
+  background-image: url("nijmegen.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.eindhoven{
+  background-image: url("eindhoven.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+div.snoep {
+  max-width: 700px;
+  margin: 0 60px 0 80px;
+}
+
+.utrechtje{
+  background-image: url("boulderen2.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+div.koek {
+  max-width: 700px;
+  margin: 0 0 0 120px;
+}
+
+.denbosch{
+  background-image: url("den bosch4.JPG");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.amsterdam{
+  background-image: url("amsterdam.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+div.deken {
+  max-width: 700px;
+  margin: 0 0 0 25px;
+}
+div.muis {
+  max-width: 700px;
+  margin: 0 0 0 160px;
+}
+div.paal {
+  max-width: 700px;
+  margin: 0 0 0 30px;
+}
+table {
+  border-collapse: collapse;
+  margin: 0px;
+}
+
+.ik{
+  background-image: url("bel.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+}
+
+.yat{
+  background-image: url("louvre.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+}
+.category{
+  border: 2px solid white;
+  padding: 7px 25px 7px 25px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+h3{
+  font-size: 60px;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+.posts{
+  text-align: center;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  font-family: sans-serif;
+}
+
+.leuk{
+  max-width: 600px;
+  padding-top: 10px;
+  margin: 0 auto;
+  text-align: justify;
+  font-family: helvetica;
+  color: black;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#foto{
+  width: 600px;
+}
+
+ h4{
+   font-size: 20px;
+   margin-bottom: -5px;
+   text-align: center;
+   padding-top: 5px;
+ }
+
+ .knop{
+   text-align: center;
+   padding: 10px;
+ }
+
+.button{
+  border: 1px solid grey;
+  font-family: cambria;
+}
+
+footer{
+  background-color: #262626;
+  padding: 20px;
+  margin-top: 50px;
+  padding-left: 100px;
+  color: grey;
+}
+
+.footer{
+  background-color: #262626;
+  padding: 20px;
+  margin-top: 50px;
+  padding-left: 100px;
+  color: grey;
+  margin-bottom: 8px;
+}
+
+
+div.info {
+     font-family: helvetica;
+     max-width: 700px;
+     text-align: justify;
+     padding: 20px;
+     margin: 0 auto;
+  }
+
+.hoofd{
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  padding: 5px;
+}
+
+div.slide {
+  padding-left: 0px;
+  margin: 0 auto;
+ }
+
+
+.contact{
+  background-image: url("plaatje.jpg");
+  background-size: cover;
+  color: white;
+  height: 450px;
+  width: 100%;
+  padding-top: 80px;
+}
+
+/* .button{
+  color: black;
+  border: 1px solid grey;
+  font-family: cambria;
+} --\
+
+
+.button a{
+  color: black;
+  border: 1px solid grey;
+  font-family: cambria;
+
+}
+
+
+/*
+.button{
+  display: inline;
+}
+
+.button {
+  border: 1px solid grey;
+  color: black;
+  font-family: cambria;
+  padding: 10px 20px 10px 20px;
+}
+.button> a:hover{
+
+  background-color: grey;
+  color: white;
+} */
